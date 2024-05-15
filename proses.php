@@ -28,7 +28,7 @@
             $error = [];
             if(empty($this->nama)) {
                 $error[] = "Nama harus diisi";
-            } 
+            }
 
             if(empty($error)) {
                 $isMember = $this->checkMember($this->nama);

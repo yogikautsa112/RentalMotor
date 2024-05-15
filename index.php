@@ -46,7 +46,7 @@
         <!-- Ouput -->
         <div class="output form-control text-center mt-2 p-4">
         <?php
-        include ('proses.php');
+        require ('proses.php');
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $nama = $_POST["nama"];
             $waktu = $_POST["waktu"];
